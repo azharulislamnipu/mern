@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 8080; // Step 1
 
 
 // Step 2
-mongoose.connect( process.env.MONGODB_URI || 'mongodb+srv://azhar:2717@cluster0-lhmpo.mongodb.net/test', {
+mongoose.connect( process.env.MONGODB_URI || 'mongodb+srv://azhar:2717@mongodb01-tx96x.mongodb.net/test', {
     useNewUrlParser: true
 });
 
